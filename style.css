@@ -71,3 +71,92 @@ section {
 .menu-item-info {
     padding: 15px;
 }
+main {
+    margin-top: 12vh;
+    text-align: center;
+  }
+  
+  main h1 {
+    color: cornflowerblue;
+    font-size: 45px;
+  }
+  
+  main h1 > span {
+    color: cornflowerblue;
+    font-family: "Roboto Slab";
+  }
+  
+  main p {
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 10px auto;
+  }
+  
+  #contact {
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    border-top: 2px solid #132bde;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #form {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 30px;
+    color: #132bde;
+    font-weight: bolder;
+  }
+  
+  #nama,
+  #email {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-top: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  #pesan {
+    border-top: 2px solid black;
+  }
+  
+  input {
+    color: white;
+    transition: outline 0.3s ease, color 0.3s ease;
+    background-color: cornflowerblue;
+  }
+  
+  textarea {
+    color: white;
+    border-radius: 10px;
+    padding: 12px 20px;
+    background-color: cornflowerblue;
+    transition: outline 0.3s ease, color 0.3s ease;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: white;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: 2px solid #132bde;
+  }
+  
+  #kirim {
+    background-color: #1626a0;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #kirim:hover {
+    background-color: #132bde;
+    box-shadow: 1px 2px 1px black;
+  }
