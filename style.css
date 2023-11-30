@@ -32,3 +32,42 @@ section {
     padding: 20px;
     text-align: center;
 }
+
+.gallery-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 20%;
+    height: 50vh;
+    margin: 10px auto;
+  }
+  
+  .gallery-wrapper {
+    display: inline-block;
+  }
+  
+  .gallery-wrapper img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.menu-item img {
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid #eee;
+}
+
+.menu-item-info {
+    padding: 15px;
+}
